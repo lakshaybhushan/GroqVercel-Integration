@@ -8,3 +8,5 @@
 <img src ="https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white">
 
 </p>
+
+<img width="1792" alt="image" src="https://github.com/lakshaybhushan/GroqVercel-Integration/assets/74349407/2b1b8638-3243-44e8-9ca5-5da567b07f96">
