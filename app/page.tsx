@@ -11,14 +11,14 @@ export default function Chat() {
         ft. <span className="text-red-500">Groq</span> Cloud
       </h1>
 
-      <div className="flex flex-col max-w-xl mx-auto pt-5 md:pt-10 pb-20 md:pb-32">
+      <div className="flex flex-col max-w-xl mx-auto pt-2 md:pt-10 pb-32">
         {messages.map((m) => (
           <div
             key={m.id}
             className={`rounded-lg p-4 mb-4 ${
               m.role === "user"
-                ? "bg-blue-700 text-white max-w-max mr-auto"
-                : "bg-gray-700 text-gray-300"
+                ? "bg-blue-700 text-white max-w-max mx-6"
+                : "bg-gray-700 text-gray-300 mx-6"
             }`}>
             <div className="whitespace-pre-wrap">
               {m.role === "user" ? (
